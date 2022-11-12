@@ -79,19 +79,6 @@ class OCC:
                         if self.occ_sleep >= self.occ_sleep_max:
                             self.occ_sleep = 0.5
                             self.occ_sleep_increment += self.occ_sleep_increment_increment
-                            if self.occ_sleep_increment >= self.occ_sleep_increment_max:
-                                self.occ_sleep_increment = 0.5
-                                self.occ_sleep_increment_increment += self.occ_sleep_increment_increment_increment
-                                if self.occ_sleep_increment_increment >= self.occ_sleep_increment_increment_max:
-                                    self.occ_sleep_increment_increment = 0.5
-                                    self.occ_sleep_increment_increment_increment += self.occ_sleep_increment_increment_increment_increment
-                                    if self.occ_sleep_increment_increment_increment >= self.occ_sleep_increment_increment_increment_max:
-                                        self.occ_sleep_increment_increment_increment = 0.5
-                                        self.occ_sleep_increment_increment_increment_increment += self.occ_sleep_increment_increment_increment_increment_increment
-                                        if self.occ_sleep_increment_increment_increment_increment >= self.occ_sleep_increment_increment_increment_increment_max:
-                                            self.occ_sleep_increment_increment_increment_increment = 0.5
-                                            self.occ_sleep = 200
-                                            self.occ_sleep_increment_increment_increment_increment_increment += self.occ_sleep_increment_increment_increment_increment_increment_increment          
         finally:
             time.sleep(self.occ_sleep)
             return False
