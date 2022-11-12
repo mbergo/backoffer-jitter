@@ -67,14 +67,6 @@ class OCC:
                 self.backoff = 0
                 self.occ_sleep = 0.5
                 self.occ_sleep_increment = 0.5
-                self.occ_sleep_increment_increment = 0.5
-                self.occ_sleep_increment_increment_increment = 0.5
-                self.occ_sleep_increment_increment_increment_increment = 0.5
-                self.occ_sleep_increment_increment_increment_increment_increment = 0.5
-                self.occ_sleep_increment_increment_increment_increment_increment_increment = 0.5
-                self.occ_sleep_increment_increment_increment_increment_increment_increment_increment = 0.5
-                self.occ_sleep_increment_increment_increment_increment_increment_increment_increment_increment = 0.5
-                self.occ_sleep_increment_increment_increment_increment_increment_increment_increment_increment_increment = 0.5
                 return True
             elif response.status_code == 429:
                 self.occ += 1
