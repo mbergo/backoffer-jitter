@@ -58,22 +58,6 @@ class OCC:
         self.occ_sleep_max = 5
         self.occ_sleep_increment = 0.5
         self.occ_sleep_increment_max = 5
-        self.occ_sleep_increment_increment = 0.5
-        self.occ_sleep_increment_increment_max = 5
-        self.occ_sleep_increment_increment_increment = 0.5
-        self.occ_sleep_increment_increment_increment_max = 5
-        self.occ_sleep_increment_increment_increment_increment = 0.5
-        self.occ_sleep_increment_increment_increment_increment_max = 5
-        self.occ_sleep_increment_increment_increment_increment_increment = 0.5
-        self.occ_sleep_increment_increment_increment_increment_increment_max = 5
-        self.occ_sleep_increment_increment_increment_increment_increment_increment = 0.5
-        self.occ_sleep_increment_increment_increment_increment_increment_increment_max = 5
-        self.occ_sleep_increment_increment_increment_increment_increment_increment_increment = 0.5
-        self.occ_sleep_increment_increment_increment_increment_increment_increment_increment_max = 5
-        self.occ_sleep_increment_increment_increment_increment_increment_increment_increment_increment = 0.5
-        self.occ_sleep_increment_increment_increment_increment_increment_increment_increment_increment_max = 5
-        self.occ_sleep_increment_increment_increment_increment_increment_increment_increment_increment_increment = 0.5
-        self.occ_sleep_increment_increment_increment_increment_increment_increment_increment_increment_increment_max = 5
         
     def post(self):
         try:
